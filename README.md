@@ -14,7 +14,9 @@ In this repository you'll find a directory with files containing energy meter-da
 Please build a PySpark solution that reads in the data and writes out a table with the energy usage for each meter at each 15 minute interval, including additional data fields 
 with the hourly averaged energy usage and a flag indicating missing intervals.  The only requirement is that the solution should only include native PySpark (and thereby no UDFs).
 
-The solution should be a generic solution for this problem and not tailored to the data provided.
+The hourly average should be per hour, not rolling.
+
+The solution should be a generic solution for this problem and not tailored to the data provided. For example, this solution should be able to work with megabytes _or_ a terabyte of data.
 
 Please provide your Pyspark code to this assignment along with your application to the data engineering position at Leap. We are looking forward to your solution!
 
