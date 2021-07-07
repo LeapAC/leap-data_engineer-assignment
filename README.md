@@ -28,6 +28,7 @@ Other notes:
 - The solution should be a generic solution for this problem and not tailored to the data provided. 
   - For example, this solution should be able to work with megabytes _or_ a terabyte of data.
 - In production, this solution would be used on millions of rows -- please provide a solution that will scale.
+- Please provide a python file that can be run to generate the output as part of your solution.
 
 
 Please provide your Pyspark code to this assignment. We are looking forward to your solution!
