@@ -17,6 +17,7 @@ In this repository you'll find a directory with files containing energy meter-da
 Please build a PySpark solution that does the following:
 - It reads in the data 
 - It writes out a file in CSV with the energy usage for each meter at each 15 minute interval. 
+  - There may be gaps in the input data -- there should _not_ be gaps in the output data.
 - The CSV file should include the following additional data fields: 
   - The hourly averaged energy usage (per clock-hour)
   - a (True/False) flag indicating missing intervals.  
