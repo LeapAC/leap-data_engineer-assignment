@@ -20,16 +20,16 @@ Please build a PySpark solution that does the following:
   - There may be gaps in the input time series data -- there should _not_ be gaps in the output data.
 - The CSV file should include the following additional data fields: 
   - The hourly averaged energy usage (per clock-hour)
-  - a (True/False) flag indicating missing intervals.  
+  - a (True/False) flag indicating missing intervals -- where the missing data/gaps have been filled.
 
 Other notes: 
-- The solution should only include native PySpark (No UDFs or UDAFs please).
-- The hourly average should be per hour, not rolling.
+- The solution should only include native PySpark (no UDFs or UDAFs please).
+- The hourly average should be per hour (clock-hour), not rolling.
 - The solution should be a generic solution for this problem and not tailored to the data provided. 
-  - For example, this solution should be able to work with megabytes _or_ a terabyte of data.
-- In production, this solution would be used on millions of rows -- please provide a solution that will scale.
+  - For example, this solution should be able to work with megabytes _or_ terabytes of data.
+  - In production, this solution would be used on millions of rows -- please provide a solution that will scale.
 - Please provide a python file that can be run to generate the output as part of your solution.
 
 
-Please provide your Pyspark code to this assignment. We are looking forward to your solution!
+We are looking forward to your solution!
 
